@@ -9,9 +9,9 @@ public class Main2 {
 
         PersonalComputer thePC = new PersonalComputer("H7 Flow", "NZXT", theCase, theMonitor, theMotherBoard);
 
-        //thePC.getMonitor().drawPixelAt(10, 10, "red");
-        //thePC.getMotherboard().loadProgram(("Windows OS"));
-        //thePC.getComputerCase().pressPowerButton();
+        thePC.getMonitor().drawPixelAt(10, 10, "red");
+        thePC.getMotherboard().loadProgram(("Windows OS"));
+        thePC.getComputerCase().pressPowerButton();
 
         thePC.powerUp();
 
